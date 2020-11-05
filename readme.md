@@ -83,6 +83,12 @@ Implementing React Router
     6. productlara tiklandiginda sayfanin komple yenlinemesini istemiyoruz single page app oldugundan dolayi.
     7. bu yuzden <a href> leri Link to= ile degistiriyoruz.
     8. Header.js de de hrefleri LinkContainer ile degistirdik.
-    
 
+Product Details Screen
+
+    1. urunun gorseli tasmasin diye fluid eklendi
+    2. App.js de pass edilen id parametresini ProductScreen.js de match edebilmek icin ({ match }) prop u kullanildi
+    3. daha sonra products icinden id ile maplendi
+    4. const product ilerleyen donemde db den okunacak.
+    
     
