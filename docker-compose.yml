@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+
+  frontend:
+    container_name: frontend-prod
+    build:
+      network: host
+      context: frontend
+      dockerfile: Dockerfile
+    ports:
+      - '1337:80'
