@@ -90,5 +90,4 @@ Product Details Screen
     2. App.js de pass edilen id parametresini ProductScreen.js de match edebilmek icin ({ match }) prop u kullanildi
     3. daha sonra products icinden id ile maplendi
     4. const product ilerleyen donemde db den okunacak.
-    
-    
+
