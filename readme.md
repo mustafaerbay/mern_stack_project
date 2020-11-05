@@ -78,4 +78,11 @@ Implementing React Router
     1. cd frontend
     2. npm i react-router-dom react-router-bootstrap
     3. App.js e Router i import et
-    4. kullanabilmek icin Router icine 
+    4. kullanabilmek icin Router icine headerlari tasi
+    5. burada git commit -m "ratingComponens"
+    6. productlara tiklandiginda sayfanin komple yenlinemesini istemiyoruz single page app oldugundan dolayi.
+    7. bu yuzden <a href> leri Link to= ile degistiriyoruz.
+    8. Header.js de de hrefleri LinkContainer ile degistirdik.
+    
+
+    
