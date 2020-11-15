@@ -93,13 +93,13 @@ Product Details Screen
 
 Serving & Fetching Data From Express
 
-10. Frontend / Backend Workflow & Explanation
-    GET 
-    POST
-    PUT
-    DELETE
+Frontend / Backend Workflow & Explanation
+    -- GET 
+    -- POST
+    -- PUT
+    -- DELETE
 
-11. Serving Products - Backend Routes
+Serving Products - Backend Routes
 
     1. Proshop pathinde npm init yaptik ve package.json dosyasi olustu
         npm init
@@ -117,7 +117,7 @@ Serving & Fetching Data From Express
         const products = require('./data/products')
     9. /api/products ve /api/products/:id routerlar eklendi.
 
-12. Fetching Products From React (useEffect)
+Fetching Products From React (useEffect)
     1. frontend klasorune geldik ve axios install ettik
         npm i axios
     2. simdi frontend e urunleri backendden gonderecegiz
