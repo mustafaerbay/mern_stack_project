@@ -1,5 +1,6 @@
 
 React Setup & Git initialize
+
     proshop klasoru olustur
     frontend klasoru olustur
         - cd frontend
@@ -13,6 +14,7 @@ React Setup & Git initialize
         - git commit -m "react proshop""
     
 React-Bootstrap Setup, Header & Footer Components
+
     1. https://bootswatch.com sitesinden tema indir.
 
     2. bootstrap.min.css dosyasini src altina tasi
@@ -94,6 +96,7 @@ Product Details Screen
 Serving & Fetching Data From Express
 
 Frontend / Backend Workflow & Explanation
+
     -- GET 
     -- POST
     -- PUT
@@ -118,6 +121,7 @@ Serving Products - Backend Routes
     9. /api/products ve /api/products/:id routerlar eklendi.
 
 Fetching Products From React (useEffect)
+
     1. frontend klasorune geldik ve axios install ettik
         npm i axios
     2. simdi frontend e urunleri backendden gonderecegiz
