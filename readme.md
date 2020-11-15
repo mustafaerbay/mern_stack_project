@@ -127,6 +127,14 @@ Fetching Products From React (useEffect)
     2. simdi frontend e urunleri backendden gonderecegiz
     3. HomeScreen.js de asagidaki satiri ucurduk
         import products from '../products'
+    4. porductlari component level state olarak ekleyecegiz ama sonunda redux ile global level olarak eklenecek
+        import React, { useState, useEffect } from 'react'
+    5. /api/products end pointi backend e 5000 portundan serve edildigi icin ve frontend 3000 portundan ayaga kalktigi icin localhost:3000/api/products 404 not found hatasi veriyor. Bunun icin frontend/package.json a proxy ayari ekledik.
+        "proxy": "http://127.0.0.1:5000",
+    6. frontendi durdurup tekrar npm start
+    7. Ayni islemi ProductScreen.js icin de yapiyoruz.
+    8. yaptiktan sonra frontend/product.js dosyasini ucuruyoruz.
+    
     
 
 
