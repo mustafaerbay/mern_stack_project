@@ -1,0 +1,22 @@
+{
+  "name": "proshop",
+  "version": "1.0.0",
+  "description": "MERN shopping cart app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mustafaerbay/mern_stack_project.git"
+  },
+  "author": "mustafa erbay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mustafaerbay/mern_stack_project/issues"
+  },
+  "homepage": "https://github.com/mustafaerbay/mern_stack_project#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

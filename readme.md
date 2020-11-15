@@ -91,3 +91,41 @@ Product Details Screen
     3. daha sonra products icinden id ile maplendi
     4. const product ilerleyen donemde db den okunacak.
 
+Serving & Fetching Data From Express
+
+10. Frontend / Backend Workflow & Explanation
+    GET 
+    POST
+    PUT
+    DELETE
+
+11. Serving Products - Backend Routes
+
+    1. Proshop pathinde npm init yaptik ve package.json dosyasi olustu
+        npm init
+    2. sonra da express install edildi
+        npm i express
+    3. Backend folderinin icinde data klasoru olusturuldu ve product.js gecisi olarak buraya kopyalandi.
+    4. backend icinde ki server.js icine express tanimlarina baslandi
+
+    5. basit port tanimi yapildi ve console log gorebilmek icin asagidaki komut calistirildi
+        node backend/server.js
+    6. package.json da ki start komutu node backend/server.js ile degistirildi npm start calismasi icin
+        npm start
+    7. data/product.js dosyasinin en altinda ES modules tanimi export default products yaziyordu ES module icin backend setupimiz olmadigi icin henuz onu module.exports = products ile degistirdik.
+    8. daha sonra da server.js de ekledik.
+        const products = require('./data/products')
+    9. /api/products ve /api/products/:id routerlar eklendi.
+
+12. Fetching Products From React (useEffect)
+    1. frontend klasorune geldik ve axios install ettik
+        npm i axios
+    2. simdi frontend e urunleri backendden gonderecegiz
+    3. HomeScreen.js de asagidaki satiri ucurduk
+        import products from '../products'
+    
+
+
+
+
+
