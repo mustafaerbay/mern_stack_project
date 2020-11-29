@@ -170,7 +170,13 @@ MongoDB Atlas & Compass Setup
     4. network allow all ip address
     5. collection kismindan proshop databaseini olustur ve product collection i olustur.
     6. connection kismindan da compass ve application icin uri lari kopyala
-    7.
+
+Connecting to Database
+
+    1. mongoose kutuphanesi kullanacagiz.
+        cd proshop
+        npm i mongoose
+    2. backend folder i icinde config/db.js olustur.
 
 
     
