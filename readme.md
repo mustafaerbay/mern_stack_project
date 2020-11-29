@@ -179,6 +179,18 @@ Connecting to Database
     2. backend folder i icinde config/db.js olustur.
     3. backend server.js de connectDB cagir.
 
+Adding Colors to the Console
+
+    1. Console log larin renkli basilmasi icin
+        npm i colors
+    
+Modeling Our Data
+
+    1. Application level da yapiyoruz.
+    2. backend/models klasoru ve altinda ki modeller olusturuldu.
+        -- orderModel.js
+        -- productModel.js
+        -- userModel.js
 
     
 
