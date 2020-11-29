@@ -177,6 +177,7 @@ Connecting to Database
         cd proshop
         npm i mongoose
     2. backend folder i icinde config/db.js olustur.
+    3. backend server.js de connectDB cagir.
 
 
     
