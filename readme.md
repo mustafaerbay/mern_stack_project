@@ -192,8 +192,21 @@ Modeling Our Data
         -- productModel.js
         -- userModel.js
 
-    
+Preparing Sample Data
 
+    1. backend/data/users.js olustur.
+    2. password decrypt/encrypt icin
+        cd proshop
+        npm i bcryptjs
+    3. users.js de passwordler hashlendi.
+
+Data Seeder Script
+
+    1. Database e product ve user olusturacagiz.
+    2. backend/seeder.js olustur.
+    3. process.argv , scriptin argumanina gore kosul icin kullanilir.
+        npm run data:import
+        npm run data:destroy
     
 
 
