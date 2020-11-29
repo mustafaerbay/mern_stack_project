@@ -134,7 +134,18 @@ Fetching Products From React (useEffect)
     6. frontendi durdurup tekrar npm start
     7. Ayni islemi ProductScreen.js icin de yapiyoruz.
     8. yaptiktan sonra frontend/product.js dosyasini ucuruyoruz.
+
+Nodemon & Concurrently Setup
+    1. normalde frontend ve backendi calistirmak icin iki farkli komut kullaniyorduk bunlari tekte birlestirecegiz
+        -D komutu devDependency anlaminda yani sadece development sirasinda gerekli.
+        ayrica nodemon serverlari surekli manuel restart etmekten kurtaracak development suresinde. 
+        cd proshop
+        npm i -D nodemon concurrently
+
+    2. package json a server, client ve dev scriptleri eklendi. asagidaki gibi calistirabilir hale geldik.
+        npm run dev 
     
+
     
 
 

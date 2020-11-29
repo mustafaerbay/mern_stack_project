@@ -77,6 +77,19 @@ const products = [
     rating: 4,
     numReviews: 12,
   },
+  {
+    _id: '7',
+    name: 'duyuk urunu',
+    image: '/images/alexa.jpg',
+    description:
+      'Merhaba benim adim Duygunun urunu',
+    brand: 'Erbay',
+    category: 'BIY',
+    price: 9.98,
+    countInStock: 0,
+    rating: 4,
+    numReviews: 120,
+  },
 ]
 
 module.exports = products
