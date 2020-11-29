@@ -151,6 +151,17 @@ Environment Variables
     1. dev, prod ortamlarinin variablarinin ayirmak ve duzenli tutmak icin dotenv npm paketi kullanilacak
         cd proshop
         npm i dotenv
+
+ES Modules(ECMAScript) in Node.js
+
+    1. backend de ki require style syntaxindan frontend tarafinda ki gibi import style syntax haline donuyoruz.
+    2. burada nasil enable edecegi var.
+        https://nodejs.org/docs/latest-v14.x/api/packages.html#packages_determining_module_system
+    3. product listesinde module.exports = products i export default products olarak degistirdik.
+    4. dosyalari import ederken .js uzantisini da belirtmek gerekiyor.
+    5. "type":"module", package.json a eklendi.
+
+
     
 
     
