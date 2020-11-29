@@ -144,7 +144,12 @@ Nodemon & Concurrently Setup
 
     2. package json a server, client ve dev scriptleri eklendi. asagidaki gibi calistirabilir hale geldik.
         npm run dev 
-    
+
+Environment Variables
+    1. dev, prod ortamlarinin variablarinin ayirmak ve duzenli tutmak icin dotenv npm paketi kullanilacak
+        cd proshop
+        npm i dotenv
+    2.
 
     
 
