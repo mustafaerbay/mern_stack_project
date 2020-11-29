@@ -161,6 +161,17 @@ ES Modules(ECMAScript) in Node.js
     4. dosyalari import ederken .js uzantisini da belirtmek gerekiyor.
     5. "type":"module", package.json a eklendi.
 
+MongoDB Atlas & Compass Setup
+
+    1. mongo db sitesinden account olustur. mustafaerbay365@gmail.com ile giris yaptik.
+    2. compass i indir
+        https://www.mongodb.com/try/download/compass
+    3. mongodb atlas cluster uzerinde db user i olustur.
+    4. network allow all ip address
+    5. collection kismindan proshop databaseini olustur ve product collection i olustur.
+    6. connection kismindan da compass ve application icin uri lari kopyala
+    7.
+
 
     
 
