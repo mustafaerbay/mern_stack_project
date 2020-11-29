@@ -136,6 +136,7 @@ Fetching Products From React (useEffect)
     8. yaptiktan sonra frontend/product.js dosyasini ucuruyoruz.
 
 Nodemon & Concurrently Setup
+
     1. normalde frontend ve backendi calistirmak icin iki farkli komut kullaniyorduk bunlari tekte birlestirecegiz
         -D komutu devDependency anlaminda yani sadece development sirasinda gerekli.
         ayrica nodemon serverlari surekli manuel restart etmekten kurtaracak development suresinde. 
@@ -146,6 +147,7 @@ Nodemon & Concurrently Setup
         npm run dev 
 
 Environment Variables
+
     1. dev, prod ortamlarinin variablarinin ayirmak ve duzenli tutmak icin dotenv npm paketi kullanilacak
         cd proshop
         npm i dotenv
