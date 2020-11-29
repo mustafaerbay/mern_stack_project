@@ -149,7 +149,7 @@ Environment Variables
     1. dev, prod ortamlarinin variablarinin ayirmak ve duzenli tutmak icin dotenv npm paketi kullanilacak
         cd proshop
         npm i dotenv
-    2.
+    
 
     
 
