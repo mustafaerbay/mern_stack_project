@@ -207,6 +207,17 @@ Data Seeder Script
     3. process.argv , scriptin argumanina gore kosul icin kullanilir.
         npm run data:import
         npm run data:destroy
+
+Fetching Products from the Database
+
+    1. server.js tarafinda endpointler cogaldikca karisiklik artmamasi icin routerlari ayirma ihtiyaci oldu.
+    using middleware kullanimindaki Router-level middleware gibi bir kullanim yaptik.
+        backend/routes/productRoutes.js olusturduk.
+    2. router middleware icerisinde error handling icin asagidaki paket kuruldu.
+        npm i express-async-handler
+    3. Fetch single product da /api/product/1 if else condition da sikinti var.
+    
+        
     
 
 
