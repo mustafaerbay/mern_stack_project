@@ -16,19 +16,13 @@ router.get('/', asyncHandler(async(req, res) => {
 // @route   /api/products/:id
 // @access  Public
 router.get('/:id', asyncHandler(async(req, res) => {
-    console.log(' this is here'.red.inverse)
-
     // const product = await Product.findOne({ _id: req.params.id })
     const product = await Product.findById(req.params.id)
-    console.log('before if condition'.red.inverse);
-    
     if(product) {
         res.json(product)
-        console.log('this is product'.cyan.bold)
-
     } else {
-        console.log('this is error message from products'.red.inverse)
-        res.status(404).json({message: 'Product not found!'})
+        res.status(404)
+        throw new Error('Product not found')
     }
 
 })

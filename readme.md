@@ -215,8 +215,13 @@ Fetching Products from the Database
         backend/routes/productRoutes.js olusturduk.
     2. router middleware icerisinde error handling icin asagidaki paket kuruldu.
         npm i express-async-handler
-    3. Fetch single product da /api/product/1 if else condition da sikinti var.
-    
+    3. Fetch single product da /api/product/1 object cast hatasi firlatiyor 24 karakterli bir id icin product not found firlatiyor. bunun icin custom error handling yapiyoruz.
+
+Custom Error Handling
+
+    1. errorMiddleware.js dosyasini olusturduk.
+    2. server.js de normalde app.use icine yazdiklarimizi errorMiddleware e tasidik
+
         
     
 
