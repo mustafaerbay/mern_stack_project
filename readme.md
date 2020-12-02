@@ -1,3 +1,13 @@
+***
+    NEEDED ENV PARAMETERS
+    .env file
+
+    --- NODE_ENV = development
+    --- PORT = 5000
+    --- MONGO_URI = mongodb+srv://XXXXX:XXXXX@ecommerce.q1m9a.mongodb.net/proshop?retryWrites=true&w=majority
+***
+
+
 
 React Setup & Git initialize
 
