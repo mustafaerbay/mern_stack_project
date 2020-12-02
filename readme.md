@@ -1,3 +1,5 @@
+[![Build status](https://dev.azure.com/mustafaerbay13/mern%20deploy/_apis/build/status/mern%20deploy-CI)](https://dev.azure.com/mustafaerbay13/mern%20deploy/_build/latest?definitionId=2)
+
 ***
     NEEDED ENV PARAMETERS
     .env file
