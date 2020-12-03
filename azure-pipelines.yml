@@ -6,8 +6,8 @@
 variables:
 - group: mernStack
 
-trigger:
-- master
+#trigger:
+#- master
 
 pool:
   vmImage: 'ubuntu-latest'
@@ -21,3 +21,4 @@ steps:
 - script: |
     npm run postbuild
   displayName: 'npm install and build'
+
