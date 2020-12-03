@@ -1,4 +1,4 @@
-[![Build status](https://dev.azure.com/mustafaerbay13/mern%20deploy/_apis/build/status/mustafaerbay.mern_stack_project)](https://dev.azure.com/mustafaerbay13/mern%20deploy/_build/latest?definitionId=2)
+[![Build Status](https://dev.azure.com/mustafaerbay13/mern%20deploy/_apis/build/status/mernstack%20-%20CI?branchName=master)](https://dev.azure.com/mustafaerbay13/mern%20deploy/_build/latest?definitionId=4&branchName=master)
 
 ***
     NEEDED ENV PARAMETERS
