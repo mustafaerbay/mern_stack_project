@@ -21,3 +21,14 @@ steps:
 - script: |
     npm run postbuild
   displayName: 'npm install and build'
+
+- task: AzureRmWebAppDeployment@4
+  inputs:
+    ConnectionType: 'AzureRM'
+    azureSubscription: 'Ücretsiz Deneme (f3756bca-19dc-4867-b9d1-af0d09aca173)'
+    appType: 'webApp'
+    WebAppName: 'mernstack'
+    packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+    ScriptType: 'Inline Script'
+    InlineScript: |
+      node backend/server.js
