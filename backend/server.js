@@ -13,6 +13,12 @@ const app = express()
 
 dotenv.config()
 
+var RateLimit = require('express-rate-limit');
+var limiter = new RateLimit({
+  windowMs: 1*60*1000, // 1 minute
+  max: 50
+});
+app.use(limiter);
 
 app.use('/api/products',productRoutes)
 
