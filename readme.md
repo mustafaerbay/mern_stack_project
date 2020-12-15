@@ -1,6 +1,8 @@
 [![Build Status](https://dev.azure.com/mustafaerbay13/mern%20deploy/_apis/build/status/mernstack%20-%20CI?branchName=master)](https://dev.azure.com/mustafaerbay13/mern%20deploy/_build/latest?definitionId=4&branchName=master)
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/mustafaerbay/mern_stack_project/master)
 [![codecov](https://codecov.io/gh/mustafaerbay/mern_stack_project/branch/master/graph/badge.svg?token=16WWFGIUIB)](https://codecov.io/gh/mustafaerbay/mern_stack_project)
+
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 ***
     NEEDED ENV PARAMETERS
     .env file
