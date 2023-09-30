@@ -72,10 +72,10 @@ const products = [
     numReviews: 12,
   },
   {
-    name: 'duyuk urunu',
+    name: 'urunu',
     image: '/images/alexa.jpg',
     description:
-      'Merhaba benim adim Duygunun urunu',
+      'Merhaba benim adim',
     brand: 'Erbay',
     category: 'BIY',
     price: 9.98,
